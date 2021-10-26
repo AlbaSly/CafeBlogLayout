@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Café</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="bar">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__name no-margin text-center">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="nav">
+                    <a href="about.html" class="nav__link">About Us</a>
+                    <a href="courses.html" class="nav__link">Courses</a>
+                    <a href="contact.html" class="nav__link">Contact</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__text text-center">
+            <h2 class="no-margin">Café blog with tips and courses</h2>
+            <p class="no-margin">Learn from experts and their betters recipes and courses</p>
+        </div>
+    </header>
+    <div class="main container">
+        <main class="blog">
+            <h3>Our blog</h3>
+
+            <article class="entry">
+                <div class="entry__img">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                        <img src="img/blog1.jpg" loading="lazy" alt="Blog Image">
+                    </picture>
+                </div>
+                <div class="entry__content">
+                    <h4 class="no-margin">Types of Coffee Beans</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis impedit natus similique sed eligendi sint incidunt exercitationem, voluptatum temporibus, veniam cumque quia maxime dolor numquam eveniet accusantium corrupti autem unde.</p>
+                    <a href="entry.html" class="button button--primary text-center">Read Entry</a>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="entry__img">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                        <img src="img/blog2.jpg" loading="lazy" alt="Blog Image">
+                    </picture>
+                </div>
+                <div class="entry__content">
+                    <h4 class="no-margin">3 Delicious Coffee Recipes</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis impedit natus similique sed eligendi sint incidunt exercitationem, voluptatum temporibus, veniam cumque quia maxime dolor numquam eveniet accusantium corrupti autem unde.</p>
+                    <a href="entry.html" class="button button--primary text-center">Read Entry</a>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="entry__img">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                        <img src="img/blog3.jpg" loading="lazy" alt="Blog Image">
+                    </picture>
+                </div>
+                <div class="entry__content">
+                    <h4 class="no-margin">Coffee Benefits</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis impedit natus similique sed eligendi sint incidunt exercitationem, voluptatum temporibus, veniam cumque quia maxime dolor numquam eveniet accusantium corrupti autem unde.</p>
+                    <a href="entry.html" class="button button--primary text-center">Read Entry</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Our Courses and Workshops</h3>
+
+            <ul class="courses no-padding">
+                <li class="course-widget">
+                    <h4 class="no-margin">
+                        Coffee Extraction Techniques
+                    </h4>
+                    <p class="course-widget__label">Price: <span class="course-widget__info">Free</span></p>
+                    <p class="course-widget__label">Quota: <span class="course-widget__info">20</span></p>
+                    <a href="entry.html" class="button button--secondary text-center">More Info About This Course Here</a>
+                </li>
+                <li class="course-widget">
+                    <h4 class="no-margin">
+                        4 Coffee Recipes for Amateurs
+                    </h4>
+                    <p class="course-widget__label">Price: <span class="course-widget__info">Free</span></p>
+                    <p class="course-widget__label">Quota: <span class="course-widget__info">25</span></p>
+                    <a href="entry.html" class="button button--secondary text-center">More Info About This Course Here</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="bar">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__name no-margin text-center">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="nav">
+                    <a href="about.html" class="nav__link">About Us</a>
+                    <a href="courses.html" class="nav__link">Courses</a>
+                    <a href="contact.html" class="nav__link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
