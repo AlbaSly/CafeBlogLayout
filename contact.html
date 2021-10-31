@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café Blog</title>   
-
+    <meta name="description" content="Website About Coffee">
+    <title>Blog Café</title>
+    
+    <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/styles.css" as="style">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-     <header class="header">
+    <header class="header">
         <div class="container">
             <div class="bar">
                 <a href="index.html" class="logo">
-                    <h1 class="logo__name no-margin text-center">Blog<span class="logo__bold">DeCafé</span></h1>
+                    <h1 class="logo__brand text-center m-0">Blog<span class="logo__brand--bold">DeCafé</span></h1>
                 </a>
-
                 <nav class="nav">
                     <a href="about.html" class="nav__link">About Us</a>
                     <a href="courses.html" class="nav__link">Courses</a>
@@ -28,8 +32,10 @@
             </div>
         </div>
         <div class="header__text text-center">
-            <h2 class="no-margin">Café blog with tips and courses</h2>
-            <p class="no-margin">Learn from experts and their betters recipes and courses</p>
+            <h2 class="m-0">Café blog with tips and courses</h2>
+            <p class="m-0">
+                Learn from experts and their betters recipes and courses
+            </p>
         </div>
     </header>
 
@@ -39,15 +45,15 @@
         <form action="" class="contact-form">
             <div class="field">
                 <label for="name" class="field__label">Name</label>
-                <input id="name" type="text" class="field__input" placeholder="Your name">
+                <input id="name"type="text" class="field__input" placeholder="Your Name">
             </div>
             <div class="field">
-                <label for="email" class="field__label">E-mail</label>
-                <input id="email" type="email" class="field__input" placeholder="Your E-mail">
+                <label for="email" class="field__label">Email</label>
+                <input id="email" type="email" class="field__input" placeholder="Your Email">
             </div>
             <div class="field">
                 <label for="message" class="field__label">Message</label>
-                <textarea id="message" name="" class="field__input field__input--textarea" placeholder="Your mesage :)"></textarea>
+                <textarea id="message" name="" id="message" class="field__input--textarea" placeholder="Your message"></textarea>
             </div>
             <div class="field">
                 <input type="submit" value="Submit" class="button button--primary">
@@ -59,9 +65,8 @@
         <div class="container">
             <div class="bar">
                 <a href="index.html" class="logo">
-                    <h1 class="logo__name no-margin text-center">Blog<span class="logo__bold">DeCafé</span></h1>
+                    <h1 class="logo__brand text-center m-0">Blog<span class="logo__brand--bold">DeCafé</span></h1>
                 </a>
-
                 <nav class="nav">
                     <a href="about.html" class="nav__link">About Us</a>
                     <a href="courses.html" class="nav__link">Courses</a>
